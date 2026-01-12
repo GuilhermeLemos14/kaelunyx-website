@@ -56,17 +56,18 @@ nav {
 }
 
 nav a {
+	background: #dedede;
 	color: var(--fg);
-	padding-block: 8px;
-	padding-inline: 12px;
+	padding-block: 12px;
+	padding-inline: 16px;
 	border-radius: 12px;
-	font-weight: 600;
+	font-weight: bold;
 	text-decoration: none;
 	transition: background 300ms linear;
 }
 
 nav a:hover {
-	background: #ddd;
+	background: #ccc;
 	text-decoration: underline;
 }
 

@@ -1,7 +1,7 @@
 # kaelunyx-website
 
-My website
+My website. Have a look.
 
 ## Licença
 
-© 2026 Guilherme. Todos os direitos reservados.
+© 2026 Guilherme Lemos. All rights reserved.

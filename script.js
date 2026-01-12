@@ -1,7 +1,7 @@
 function copyPrevious(el) {
 	let previousElement = el.previousElementSibling;
 	navigator.clipboard.writeText(previousElement.textContent);
-	alert("Copied with sucess. Check your clipboard.");
+	alert("Copied. Copiado.");
 }
 
 document.querySelectorAll(".copy-email").forEach((el) => {
