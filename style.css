@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+:root {
+	--html-bg: #dedede;
+	--bg: #ececec;
+	--fg: #202020;
+	--link: #333;
+	--default-font: system-ui, sans-serif;
+	--border-color: #ccc;
+	--border: 1px solid var(--border-color);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--html-bg);
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: var(--bg);
+	box-shadow: #0001 0 0 10px;
+	color: var(--fg);
+	line-height: 1.6;
+	font-family: var(--default-font);
+	max-width: 700px;
+	min-height: 100vh;
+	min-height: 100dvh;
+	margin-inline: auto;
+	padding-inline: 32px;
+}
+
+header {
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+header p {
+	font-size: 16px;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	padding-block: 8px;
+	justify-content: center;
+	gap: 28px;
+}
+
+nav a {
+	color: var(--fg);
+	padding-block: 8px;
+	padding-inline: 12px;
+	border-radius: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background 300ms linear;
+}
+
+nav a:hover {
+	background: #ddd;
+	text-decoration: underline;
+}
+
+a {
+	color: var(--link);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.em,
+a.em:hover {
+	text-decoration: underline wavy 1px;
+}
+
+p {
+	text-align: justify;
+}
+
+section {
+	padding-block: 3rem;
+	border-block-start: var(--border);
+}
+
+section p {
+	margin-inline-start: 20px;
+}
+
+li {
+	padding-block: 4px;
+	list-style-type: none;
+}
+
+li li {
+	list-style-type: disc;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+h2 {
+	margin-bottom: 1rem;
+}
+
+h3 {
+	margin-top: 1.5rem;
+}
+
+h3 a {
+	color: var(--fg);
+}
+
+li a {
+	text-decoration: none;
+}
+
+.copy-email {
+	margin-inline-start: 0.5rem;
+	padding: 0.25rem 0.5rem;
+	background: #eee;
+	border: var(--border);
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.copy-email:hover {
+	background: #ddd;
+}
+
+footer {
+	text-align: center;
+	border-block-start: var(--border);
+	padding-block: 2rem;
+	color: #555;
+}
+
+footer p {
+	text-align: center;
+	margin-block: 8px;
+}
+
+footer .copyright {
+	margin-block-start: 16px;
+	font-weight: 600;
+}
