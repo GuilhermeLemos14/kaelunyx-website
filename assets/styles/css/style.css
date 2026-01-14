@@ -105,8 +105,9 @@ section {
 	border-block-start: var(--border);
 }
 
-section p {
-	margin-inline-start: 20px;
+section p,
+.iframe-wrapper {
+	margin-inline: 20px;
 }
 
 li {
