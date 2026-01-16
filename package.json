@@ -1,11 +1,11 @@
 {
 	"name": "kaelunyx-website",
-	"version": "2.4.0",
+	"version": "2.4.1",
 	"description": "My website. Have a look.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"sass": "sass --watch assets/styles/scss:assets/styles/css"
+		"sass": "sass --watch assets/scss:assets/css"
 	},
 	"repository": {
 		"type": "git",
