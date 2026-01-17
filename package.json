@@ -1,6 +1,6 @@
 {
 	"name": "kaelunyx-website",
-	"version": "2.4.2",
+	"version": "2.5.0",
 	"description": "My website. Have a look.",
 	"main": "index.js",
 	"scripts": {
