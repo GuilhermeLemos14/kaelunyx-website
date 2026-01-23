@@ -1,0 +1,78 @@
+{
+	"meta": {
+		"title": "Kaelunyx’s Page",
+		"description": "Exploring inner universes through art, code, and music.",
+		"og_title": "Kaelunyx — A Cosmic Universe of Art and Code",
+		"og_description": "Exploring inner universes through art, programming, and music.",
+		"og_alt": "Black dog with snow on its snout in a snowy landscape, with the text 'Kaelunyx Portal' on the left.",
+		"twitter_title": "Kaelunyx — A Cosmic Universe of Art and Code",
+		"twitter_description": "Exploring inner universes through art, programming, and music."
+	},
+
+	"ui": {
+		"toggle_stars": "Toggle stars",
+		"copy": "Copy"
+	},
+
+	"header": {
+		"title": "Hi, I'm Kaelunyx",
+		"subtitle": "I'm a bit too much for a simple website. Everything here is just the essentials... <em>for now.</em>"
+	},
+
+	"nav": {
+		"about": "About",
+		"identity": "Identity",
+		"links": "Links",
+		"home": "Home"
+	},
+
+	"about": {
+		"title": "About me",
+		"intro": "Hi, my name is Guilherme Lemos, known online as <abbr title=\"Kaelunyx Sylen Rivenheart\">Kaelunyx</abbr> (Kaelunyx Sylen Rivenheart).",
+		"location": "I live in Brazil, more specifically in the Northeast region. I dream of living in Canada one day.",
+		"age": "I'm 14 years old and the developer of this entire website lol",
+		"more": "I honestly have no idea what to write here, so if you have any questions about me, feel free to ask.",
+		"alarm": "My alarm",
+		"playlist": "My playlist"
+	},
+
+	"identity": {
+		"title": "Identity",
+		"pronouns_label": "Pronouns:",
+		"pronouns": "he/they/xe/ze or any pronouns, I don’t mind",
+		"role_label": "Role:",
+		"role": "Fullstack Web Developer",
+		"languages_label": "Languages:",
+		"languages": "pt-BR en-US en-CA es-ES fr-CA",
+		"tags1": "Furry Therian Nerd",
+		"tags2": "Cosmic‑aligned",
+		"more": "You only know a few things...",
+		"more_link": "but there’s still more."
+	},
+
+	"links": {
+		"title": "Links",
+		"social_title": "Social Media",
+		"discord": "Discord",
+		"github": "GitHub",
+		"instagram": "Instagram",
+		"reddit": "Reddit",
+		"youtube": "YouTube",
+
+		"pronouns_page": "Pronouns Page",
+		"pronouns_en": "English",
+		"pronouns_pt": "Portuguese",
+		"pronouns_es": "Spanish",
+		"pronouns_fr": "French",
+
+		"contact_title": "Contact",
+		"email1": "guilherls@proton.me",
+		"email2": "cmd.contact@proton.me"
+	},
+
+	"footer": {
+		"line1": "My world is dark, but not sad.",
+		"line2": "Keep wandering...",
+		"copyright": "© 2026 Guilherme Lemos. All rights reserved."
+	}
+}

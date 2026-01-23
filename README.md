@@ -2,6 +2,6 @@
 
 My website. Have a look.
 
-## Licença
+## Licence
 
 © 2026 Guilherme Lemos. All rights reserved.

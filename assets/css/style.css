@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import "stars.css";
-@import "vars.css";
+@import "vars.css"; /* já importado em stars.css */
 
 *,
 *::before,
@@ -94,6 +94,18 @@ a.em:hover {
 
 p {
 	text-align: justify;
+}
+
+.indent {
+	display: block;
+	margin-inline-start: 40px;
+	margin-block-start: 12px;
+	margin-block-end: 8px;
+}
+
+strong {
+	color: var(--cosmic-adaptive-blue);
+	font-weight: 700;
 }
 
 abbr {

@@ -1,0 +1,78 @@
+{
+	"meta": {
+		"title": "Página de Kaelunyx",
+		"description": "Explorando universos internos através de arte, código e música.",
+		"og_title": "Kaelunyx — Universo Cósmico de Arte e Código",
+		"og_description": "Explorando universos internos através de arte, programação e música.",
+		"og_alt": "Cão preto com neve no focinho em paisagem nevada, com o texto 'Kaelunyx Portal' à esquerda.",
+		"twitter_title": "Kaelunyx — Universo Cósmico de Arte e Código",
+		"twitter_description": "Explorando universos internos através de arte, programação e música."
+	},
+
+	"ui": {
+		"toggle_stars": "Ativar/Desativar estrelas",
+		"copy": "Copiar"
+	},
+
+	"header": {
+		"title": "Olá, eu sou Kaelunyx",
+		"subtitle": "Eu sou demais para um site simples. Tudo aqui é apenas o essencial... <em>por enquanto.</em>"
+	},
+
+	"nav": {
+		"about": "Sobre",
+		"identity": "Identidade",
+		"links": "Links",
+		"home": "Início"
+	},
+
+	"about": {
+		"title": "Sobre mim",
+		"intro": "Olá, meu nome é Guilherme Lemos, conhecido online como <abbr title=\"Kaelunyx Sylen Rivenheart\">Kaelunyx</abbr> (Kaelunyx Sylen Rivenheart).",
+		"age": "Tenho 14 anos e sou o desenvolvedor desse site inteiro, kk",
+		"location": "Moro no Brasil, mais especificamente na região Nordeste. Eu sonho em morar no Canadá um dia.",
+		"more": "Eu não faço a menor ideia do que dizer aqui, então se você tiver alguma pergunta sobre mim, pode me perguntar sem medo.",
+		"alarm": "Meu alarme",
+		"playlist": "Minha playlist"
+	},
+
+	"identity": {
+		"title": "Identidade",
+		"pronouns_label": "Pronomes:",
+		"pronouns": "ele/elu/éle/êlu ou qualquer pronome, tanto faz",
+		"role_label": "Função:",
+		"role": "Desenvolvedor Web Fullstack",
+		"languages_label": "Idiomas:",
+		"languages": "pt-BR en-US en-CA es-ES fr-CA",
+		"tags1": "Furry Therian Nerd",
+		"tags2": "Relacionado ao cósmico",
+		"more": "Você só sabe algumas coisas...",
+		"more_link": "mas ainda existe mais."
+	},
+
+	"links": {
+		"title": "Links",
+		"social_title": "Redes Sociais",
+		"discord": "Discord",
+		"github": "GitHub",
+		"instagram": "Instagram",
+		"reddit": "Reddit",
+		"youtube": "YouTube",
+
+		"pronouns_page": "Pronouns Page",
+		"pronouns_en": "Inglês",
+		"pronouns_pt": "Português",
+		"pronouns_es": "Espanhol",
+		"pronouns_fr": "Francês",
+
+		"contact_title": "Contato",
+		"email1": "guilherls@proton.me",
+		"email2": "cmd.contact@proton.me"
+	},
+
+	"footer": {
+		"line1": "Meu mundo é escuro, mas não triste.",
+		"line2": "Continue vagando...",
+		"copyright": "© 2026 Guilherme Lemos. Todos os direitos reservados."
+	}
+}
