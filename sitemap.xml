@@ -13,4 +13,10 @@
     <priority>0.80</priority>
   </url>
 
+  <url>
+    <loc>https://kaelunyx.space/portfolio</loc>
+    <lastmod>2026-01-26</lastmod>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
