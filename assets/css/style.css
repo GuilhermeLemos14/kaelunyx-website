@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@import "footer.css";
 @import "stars.css";
 @import "vars.css"; /* já importado em stars.css */
 
@@ -75,7 +76,8 @@ nav a:hover {
 }
 
 nav a:focus {
-	outline: 2px var(--cosmic-adaptive-purple) solid;
+	background-color: var(--button-bg-hover);
+	outline: 2px var(--cosmic-light) solid;
 }
 
 a {
@@ -150,9 +152,8 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-h3 {
+ul li strong {
 	color: var(--cosmic-neon);
-	margin-top: 1.5rem;
 }
 
 h3 a {

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.portfolio-section {
+	margin-top: 4rem;
+}
+
+.project {
+	margin: 3rem 0;
+	text-align: center;
+}
+
+.project h2 {
+	margin-bottom: 1rem;
+}
+
+.project h3 {
+	color: var(--cosmic-neon);
+}
+
+.project-preview {
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 14px;
+	transition: transform 0.3s ease;
+}
+
+.project-preview img {
+	height: auto;
+	width: 100%;
+	display: block;
+	border-radius: 14px;
+}

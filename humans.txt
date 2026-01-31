@@ -1,0 +1,19 @@
+/* TEAM */
+Developer: Guilherme Lemos
+Site: https://kaelunyx.space
+Location: Alagoas, Brasil
+Role: Full-stack dev, cosmic designer, automation enjoyer
+
+/* TECHNOLOGY */
+Stack: HTML, CSS, JS, Jekyll, Ruby, GitHub Pages
+Tools: VS Code, Cursor, Git, Node.js
+Design: SVG sprites, modular includes, cosmic UI vibes
+
+/* SITE */
+Last update: 2026
+Source: Private repository
+Made with: caffeine, curiosity, and a bit of chaos
+
+/* MESSAGE */
+If you're reading this, you're probably a curious human.
+Stay creative. Stay weird. Build cool things.

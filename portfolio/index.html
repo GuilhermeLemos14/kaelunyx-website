@@ -1,207 +1,39 @@
-<!doctype html>
-<html lang="en-CA">
-	<head>
-		<!-- ===========================
-       ESSENTIAL METADATA
-    ============================ -->
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+---
+layout: default
+title: Portfolio — Kaelunyx
+description: Portfolio — a curated selection of my best projects and creative work.
+url: https://kaelunyx.space/portfolio
+style: portfolio.css
+---
 
-		<!-- Theme colour (mobile) -->
-		<meta name="theme-color" content="#98949c" />
-		<meta name="color-scheme" content="dark" />
-
-		<!-- Description -->
-		<meta
-			name="description"
-			content="Portfolio — selected projects by Kaelunyx, including previews, animations, and interactive showcases." />
-
-		<!-- Canonical -->
-		<link rel="canonical" href="https://kaelunyx.space/portfolio" />
-
-		<!-- ===========================
-       OPEN GRAPH (FACEBOOK / WHATSAPP)
-    ============================ -->
-		<meta property="og:title" content="Portfolio — Kaelunyx" />
-		<meta
-			property="og:description"
-			content="Explore selected projects by Kaelunyx, including interactive previews and full‑screen transitions." />
-		<meta
-			property="og:image"
-			content="https://kaelunyx.space/public/thumbnail.png" />
-		<meta property="og:image:type" content="image/png" />
-		<meta property="og:image:width" content="1200" />
-		<meta property="og:image:height" content="630" />
-		<meta
-			property="og:image:alt"
-			content="Black dog with snow on its snout in a snowy landscape, with the text 'Kaelunyx Portal' on the left." />
-		<meta property="og:url" content="https://kaelunyx.space/portfolio" />
-		<meta property="og:locale" content="en_CA" />
-		<meta property="og:site_name" content="Kaelunyx" />
-
-		<!-- ===========================
-       TWITTER CARDS
-    ============================ -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Portfolio — Kaelunyx" />
-		<meta
-			name="twitter:description"
-			content="Explore selected projects by Kaelunyx, including interactive previews and full‑screen transitions." />
-		<meta
-			name="twitter:image"
-			content="https://kaelunyx.space/public/thumbnail.png" />
-
-		<!-- Page title -->
-		<title>Portfolio — Kaelunyx</title>
-
-		<!-- Favicon -->
-		<link
-			rel="shortcut icon"
-			href="https://kaelunyx.space/public/favicon.ico"
-			type="image/x-icon" />
-
-		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
-			rel="stylesheet" />
-
-		<!-- CSS -->
-		<link rel="stylesheet" href="/assets/css/style.css" />
-
-		<!-- Portfolio-specific CSS -->
-		<style>
-			.portfolio-section {
-				margin-top: 4rem;
-			}
-
-			.project {
-				margin: 3rem 0;
-				text-align: center;
-			}
-
-			.project h2 {
-				margin-bottom: 1rem;
-			}
-
-			.project-preview {
-				width: 100%;
-				max-width: 650px;
-				margin: 0 auto;
-				cursor: pointer;
-				overflow: hidden;
-				border-radius: 14px;
-				transition: transform 0.3s ease;
-			}
-
-			.project-preview img {
-				height: auto;
-				width: 100%;
-				display: block;
-				border-radius: 14px;
-			}
-		</style>
-
-		<!-- Scripts -->
-		<script type="module" src="/assets/js/script.js" defer></script>
-	</head>
-
-	<body>
-		<button id="toggle-stars-button" aria-label="Toggle Stars">
-			Toggle stars
-		</button>
-
-		<div id="wrapper">
-			<header>
-				<h1>Portfolio</h1>
-				<p>Selected works, experiments, and universes I've built.</p>
-
-				<nav>
-					<a href="https://kaelunyx.space/">Home</a>
-					<a href="/about/">About</a>
-					<a href="/portfolio/">Portfolio</a>
-				</nav>
-			</header>
-
-			<main>
-				<!-- ===========================
-           PORTFOLIO SECTION
-        ============================ -->
-				<section class="portfolio-section">
-					<h2>Featured Project</h2>
-
-					<div class="project">
-						<h3>LITG Universe Store</h3>
-
-						<div class="project-preview">
-							<a
-								href="https://litg-universe-store.netlify.app/?utm_source=kaelunyx.space&utm_medium=referral&utm_campaign=portfolio"
-								rel="external noopener"
-								target="_blank">
-								<img
-									decoding="async"
-									src="/public/litg-preview.png"
-									height="972"
-									width="1920"
-									alt="Preview of LITG Universe Store" />
-							</a>
-						</div>
-
-						<p>Click the preview to enter the full experience.</p>
-					</div>
-				</section>
-			</main>
-
-			<footer>
-				<p>My world is dark, but not sad.</p>
-				<p>Keep wandering...</p>
-				<p class="copyright">
-					© 2026 Guilherme Lemos. All rights reserved.
-				</p>
-			</footer>
+<header>
+	<h1>Portfolio</h1>
+	<p>Selected works, experiments, and universes I've built.</p>
+	<nav>
+		<a class="page-link" href="/">Home</a>
+		<a class="page-link" href="/about/">About</a>
+		<a class="page-link" href="/portfolio/">Portfolio</a>
+	</nav>
+</header>
+<main>
+	<section class="portfolio-section">
+		<h2>Featured Project</h2>
+		<div class="project">
+			<h3>LITG Universe Store</h3>
+			<div class="project-preview">
+				<a
+					href="https://litg-universe-store.netlify.app/?utm_source=kaelunyx.space&utm_medium=referral&utm_campaign=portfolio"
+					rel="external noopener"
+					target="_blank">
+					<img
+						decoding="async"
+						src="/assets/img/portfolio/litg-preview.png"
+						height="972"
+						width="1920"
+						alt="Preview of LITG Universe Store" />
+				</a>
+			</div>
+			<p>Click the preview to enter the full experience.</p>
 		</div>
-
-		<!-- Stars background -->
-		<div class="stars stars--back">
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-		</div>
-
-		<!-- Stars foreground -->
-		<div class="stars stars--front">
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-			<div class="star"></div>
-		</div>
-	</body>
-</html>
+	</section>
+</main>

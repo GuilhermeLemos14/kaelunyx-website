@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-CA">
+	<head>
+		{% include head.html title=page.title description=page.description
+		url=page.url nostyle=page.nostyle noscript=page.noscript %} {% if
+		page.style %}
+		<link rel="stylesheet" href="/assets/css/pages/{{ page.style }}" />
+		{% endif %} {% if page.script %}
+		<script src="/assets/js/pages/{{ page.script }}"></script>
+		{% endif %}
+	</head>
+	<body>
+		{% include sprite.svg %} {% include toggle_stars.html %}
+		<div id="wrapper">
+			{{ content }} {% include footer.html ano=site.ano autor=site.autor
+			%}
+		</div>
+		{% include stars.html %}
+	</body>
+</html>

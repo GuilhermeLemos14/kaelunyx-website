@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import "/assets/css/footer.css";
+@import "/assets/css/stars.css";
+@import "/assets/css/vars.css"; /* já importado em stars.css */
+
+html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	user-select: none;
+}
+
+body {
+	background: linear-gradient(
+		to bottom,
+		var(--bg),
+		hsl(from var(--cosmic-purple) h s calc(l - 16))
+	);
+	color: var(--cosmic-light);
+	font-family: var(--default-font);
+	text-align: center;
+	margin: 0;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+	gap: 5vh;
+	z-index: 10;
+}
+
+header {
+	align-self: center;
+	padding: 3rem;
+	padding-block-end: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin-block-end: 20px;
+}
+
+#link-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-block-start: 20px;
+	margin-inline: auto;
+	gap: 20px;
+	width: 180px;
+	position: relative;
+}
+
+#link-wrapper a {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background: var(--cosmic-blue);
+	border-radius: 8px;
+	text-decoration: none;
+	color: hsl(0, 0%, 87%);
+	font-weight: bold;
+	transition: background 300ms linear;
+}
+
+#link-wrapper a:hover {
+	background: hsl(from var(--cosmic-blue) h calc(s - 16) calc(l - 8));
+}
+
+a:focus {
+	outline: 2px var(--cosmic-light) solid;
+}

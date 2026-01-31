@@ -1,0 +1,14 @@
+url: "https://kaelunyx.space"
+baseurl: ""
+
+exclude:
+    - node_modules
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - package-lock.json
+    - README.md
+    - _site
+
+ano: 2026
+autor: Guilherme Lemos

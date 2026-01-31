@@ -1,8 +1,14 @@
 User-agent: *
 Allow: /
 
-# Evita indexar arquivos técnicos
+# Bloqueia arquivos técnicos e de desenvolvimento
 Disallow: /assets/scss/
-Disallow: /assets/css/stars.css.map
+Disallow: /assets/css/*.map
+Disallow: /node_modules/
 Disallow: /package.json
 Disallow: /package-lock.json
+
+# Pastas internas do Jekyll (não são servidas, mas reforçamos)
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_site/
